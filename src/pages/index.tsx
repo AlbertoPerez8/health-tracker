@@ -112,7 +112,7 @@ function Home() {
 				<Tracker name={"villains"} />
 			</div>
 			<div className=" w-full text-xl text-center pb-2">
-				<a href="https://github.com/AlbertoPerez8/coolest-mon">
+				<a href="https://github.com/AlbertoPerez8/health-tracker">
 					Github Page
 				</a>
 			</div>
