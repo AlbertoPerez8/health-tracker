@@ -47,7 +47,7 @@ function Display({ stat, props }: { stat: string; props: Values }) {
 				{`-1 ${stat}`}
 			</button>
 
-			<div className="text-xl text-center p-2">
+			<div className="text-2xl text-center p-2">
 				{stat === "HP" ? `${stats.health} HP` : `${stats.energy} Energy`}
 			</div>
 
