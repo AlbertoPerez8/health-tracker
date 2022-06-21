@@ -135,7 +135,7 @@ function Display({
 }
 
 function Tracker({ name }: { name: string }) {
-	const [values] = useState<Values>({ energy: 20, health: 30 });
+	const [values] = useState<Values>({ energy: 20, health: 0 });
 
 	return (
 		<div className="p-16 flex flex-col items-center justify-between">
